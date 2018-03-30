@@ -1,0 +1,17 @@
+{
+  "name": "src",
+  "version": "0.0.1",
+  "dependencies": {
+    "request": "^2.85.0",
+    "request-promise": "^4.2.2"
+  },
+  "devDependencies": {
+    "typescript": "^2.8.1",
+    "@types/node": "^9.6.1",
+    "ts-node": "^5.0.1",
+    "@types/request-promise": "^4.1.41"
+  },
+  "scripts": {
+    "run": "ts-node ./src/server.ts"
+  }
+}
