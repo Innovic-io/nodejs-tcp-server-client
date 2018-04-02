@@ -2,6 +2,7 @@
   "name": "src",
   "version": "0.0.1",
   "dependencies": {
+    "nodemon": "^1.17.3",
     "request": "^2.85.0",
     "request-promise": "^4.2.2"
   },
@@ -12,8 +13,7 @@
     "@types/request-promise": "^4.1.41"
   },
   "scripts": {
-    "server": "ts-node ./src/server.ts",
-    "client":  "ts-node ./src/client.ts"
-
+    "server": "nodemon",
+    "client": "ts-node ./src/client.ts"
   }
 }

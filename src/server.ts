@@ -12,7 +12,7 @@ const server = createServer(socket => {
     //socket.pipe(socket);
 
     socket.on('end', () => {
-        console.log(`Client diconnected. (${--connected})`);
+        console.log(`Client disconnected. (${--connected})`);
         sockets.splice(sockets.indexOf(socket), 1);
     });
 

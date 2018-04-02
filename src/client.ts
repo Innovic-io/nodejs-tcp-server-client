@@ -10,4 +10,3 @@ const client = createConnection({ port: 8125 }, () => {
     client.write('London');
     client.write('Paris');
 });
-
