@@ -12,6 +12,8 @@
     "@types/request-promise": "^4.1.41"
   },
   "scripts": {
-    "run": "ts-node ./src/server.ts"
+    "server": "ts-node ./src/server.ts",
+    "client":  "ts-node ./src/client.ts"
+
   }
 }
