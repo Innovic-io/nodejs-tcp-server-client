@@ -1,7 +1,7 @@
 # NodeJS TSP Server Client communication
 
 Showcase of TCP ( server to client ) communication implemented in NodeJS programming language. Example application consists of Server 
-script and client script, which run separately. 
+script and client script, both of which run separately. 
 
 Upon connecting to a server the user is prompted to enter the name of a city. If the city exists the app returns its current 
 weather and temperature.
