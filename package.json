@@ -4,7 +4,8 @@
   "dependencies": {
     "nodemon": "^1.17.3",
     "request": "^2.85.0",
-    "request-promise": "^4.2.2"
+    "request-promise": "^4.2.2",
+    "tslint": "^5.10.0"
   },
   "devDependencies": {
     "typescript": "^2.8.1",
@@ -14,6 +15,7 @@
   },
   "scripts": {
     "server": "nodemon",
-    "client": "ts-node ./src/client.ts"
+    "client": "ts-node ./src/client.ts",
+    "tslint": "tslint ./**/*.ts --fix"
   }
 }
